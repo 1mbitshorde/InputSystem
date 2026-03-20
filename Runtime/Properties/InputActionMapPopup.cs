@@ -1,7 +1,7 @@
 using System;
 using UnityEngine.InputSystem;
 
-namespace ActionCode.InputSystem
+namespace OneM.InputSystem
 {
     /// <summary>
     /// Displays the action maps from a given <see cref="InputActionAsset"/> as a Popup field.

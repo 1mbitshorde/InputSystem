@@ -3,7 +3,7 @@ using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using System.Collections;
 
-namespace ActionCode.InputSystem
+namespace OneM.InputSystem
 {
     /// <summary>
     /// Invokes <see cref="OnActionPerformed"/> event when the <see cref="actionPopup"/> is performed.

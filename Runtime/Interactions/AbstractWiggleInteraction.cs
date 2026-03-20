@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace ActionCode.InputSystem
+namespace OneM.InputSystem
 {
     /// <summary>
     /// Abstract Input Interaction for Stick wiggle movement.

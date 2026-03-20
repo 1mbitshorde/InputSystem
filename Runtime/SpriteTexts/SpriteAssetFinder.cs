@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 
-namespace ActionCode.InputSystem
+namespace OneM.InputSystem
 {
     public static class SpriteAssetFinder
     {

@@ -1,6 +1,6 @@
 {
-    "name": "ActionCode.InputSystem.Runtime",
-    "rootNamespace": "ActionCode.InputSystem",
+    "name": "OneM.InputSystem",
+    "rootNamespace": "OneM.InputSystem",
     "references": [
         "GUID:2055e4f86e8d13344b9d599457150310",
         "GUID:b6d604d366204e3498891d6d6ba5936e",

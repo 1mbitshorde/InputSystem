@@ -1,11 +1,11 @@
 #if UI_TOOLKIT
 using UnityEngine;
-using ActionCode.SerializedDictionaries;
+using OneM.SerializedDictionaries;
 using UnityEngine.UIElements;
 using System.Linq;
 using System.Collections.Generic;
 
-namespace ActionCode.InputSystem
+namespace OneM.InputSystem
 {
     /// <summary>
     /// Displays multiple Sprite Tags into Labels inside a local <see cref="UIDocument"/> by replacing all 
@@ -19,7 +19,7 @@ namespace ActionCode.InputSystem
     /// Next, set the <see cref="inputSpriteTags"/>, adding an entry with <c>{jump}</c> as key and an appropriated Sprite Tag asset.
     /// At runtime, all occurrences of <c>{jump}</c> will be replaced by this Sprite Tag.
     /// <br/>
-    /// You can create any Sprite Tag asset using the creating menu, ActionCode/Input System/.
+    /// You can create any Sprite Tag asset using the creating menu, OneM/Input System/.
     /// 
     /// <para> 
     /// <b>Tip</b>: if your project uses the Localization System provided by Unity, also attach 

@@ -1,13 +1,13 @@
 using UnityEngine;
 
-namespace ActionCode.InputSystem
+namespace OneM.InputSystem
 {
     /// <summary>
     /// Abstract data container for a Sprite Tag.
     /// </summary>
     public abstract class AbstractSpriteTag : ScriptableObject
     {
-        protected const string MENU_NAME = "ActionCode/Input System/";
+        protected const string MENU_NAME = "OneM/Input System/";
 
         /// <summary>
         /// Returns the Sprite Tag for the given device.

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityInputSystem = UnityEngine.InputSystem.InputSystem;
 
-namespace ActionCode.InputSystem
+namespace OneM.InputSystem
 {
     /// <summary>
     /// Wiggle Input Interaction for a vector movement.

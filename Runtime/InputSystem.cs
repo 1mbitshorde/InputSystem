@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.LowLevel;
 
-namespace ActionCode.InputSystem
+namespace OneM.InputSystem
 {
     public static class InputSystem
     {

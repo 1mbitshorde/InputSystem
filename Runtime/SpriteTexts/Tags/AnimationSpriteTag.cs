@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ActionCode.InputSystem
+namespace OneM.InputSystem
 {
     /// <summary>
     /// Data container for an Animated Sprite Tag.

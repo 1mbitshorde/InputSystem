@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
 
-namespace ActionCode.InputSystem.Editor
+namespace OneM.InputSystem.Editor
 {
     [CustomPropertyDrawer(typeof(InputActionPopup))]
     public sealed class InputActionPopupDrawer : PropertyDrawer

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace ActionCode.InputSystem
+namespace OneM.InputSystem
 {
     /// <summary>
     /// Disables the mouse cursor when a Gamepad is used and enables it again when Keyboard/Mouse is used.

@@ -2,7 +2,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace ActionCode.InputSystem.Editor
+namespace OneM.InputSystem.Editor
 {
     [CustomPropertyDrawer(typeof(InputActionMapPopup))]
     public sealed class InputActionMapPopupDrawer : PropertyDrawer

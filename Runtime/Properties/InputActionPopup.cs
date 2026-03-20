@@ -1,6 +1,6 @@
 using UnityEngine.InputSystem;
 
-namespace ActionCode.InputSystem
+namespace OneM.InputSystem
 {
     /// <summary>
     /// Displays the actions from a given <see cref="InputActionMap"/> as a Popup field.

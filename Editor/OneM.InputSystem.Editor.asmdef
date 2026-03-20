@@ -1,9 +1,9 @@
 {
-    "name": "ActionCode.InputSystem.Editor",
-    "rootNamespace": "ActionCode.InputSystem.Editor",
+    "name": "OneM.InputSystem.Editor",
+    "rootNamespace": "OneM.InputSystem.Editor",
     "references": [
-        "GUID:75469ad4d38634e559750d17036d5f7c",
-        "GUID:9c28ae16f2bf6054f89167354241a994"
+        "GUID:9c28ae16f2bf6054f89167354241a994",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
     ],
     "includePlatforms": [
         "Editor"

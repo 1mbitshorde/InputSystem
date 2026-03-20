@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace ActionCode.InputSystem
+namespace OneM.InputSystem
 {
     /// <summary>
     /// Data container for Sprite Tag using an <see cref="InputActionAsset"/>.
     /// </summary>
-    [CreateAssetMenu(fileName = "ActionSpriteTag", menuName = MENU_NAME + "Action Sprite Tag", order = 110)]
+    [CreateAssetMenu(fileName = "ActionSpriteTag", menuName = MENU_NAME + "Action Sprite Tag")]
     public sealed class ActionSpriteTag : AbstractSpriteTag
     {
         [SerializeField, Tooltip("The Input Asset where your action is.")]

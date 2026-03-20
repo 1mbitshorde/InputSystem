@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-03-20
+### Changed
+- Move package into 1M Bits Horde
+
 ### Fixed
 - Wait time for Button Listener components
 
@@ -144,22 +148,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - README
 - Initial commit
 
-[Unreleased]: https://github.com/HyagoOliveira/InputSystem/compare/1.8.3
-[1.8.3]: https://github.com/HyagoOliveira/InputSystem/tree/1.8.3/
-[1.8.2]: https://github.com/HyagoOliveira/InputSystem/tree/1.8.2/
-[1.8.1]: https://github.com/HyagoOliveira/InputSystem/tree/1.8.1/
-[1.8.0]: https://github.com/HyagoOliveira/InputSystem/tree/1.8.0/
-[1.7.0]: https://github.com/HyagoOliveira/InputSystem/tree/1.7.0/
-[1.6.0]: https://github.com/HyagoOliveira/InputSystem/tree/1.6.0/
-[1.5.0]: https://github.com/HyagoOliveira/InputSystem/tree/1.5.0/
-[1.4.0]: https://github.com/HyagoOliveira/InputSystem/tree/1.4.0/
-[1.3.0]: https://github.com/HyagoOliveira/InputSystem/tree/1.3.0/
-[1.2.0]: https://github.com/HyagoOliveira/InputSystem/tree/1.2.0/
-[1.1.0]: https://github.com/HyagoOliveira/InputSystem/tree/1.1.0/
-[1.0.0]: https://github.com/HyagoOliveira/InputSystem/tree/1.0.0/
-[1.0.0-preview.6]: https://github.com/HyagoOliveira/InputSystem/tree/1.0.0-preview.6/
-[1.0.0-preview.5]: https://github.com/HyagoOliveira/InputSystem/tree/1.0.0-preview.5/
-[1.0.0-preview.4]: https://github.com/HyagoOliveira/InputSystem/tree/1.0.0-preview.4/
-[1.0.0-preview.3]: https://github.com/HyagoOliveira/InputSystem/tree/1.0.0-preview.3/
-[1.0.0-preview.2]: https://github.com/HyagoOliveira/InputSystem/tree/1.0.0-preview.2/
-[1.0.0-preview.1]: https://github.com/HyagoOliveira/InputSystem/tree/1.0.0-preview.1/
+[Unreleased]: https://github.com/1mbitshorde/InputSystem/compare/2.0.0
+[2.0.0]: https://github.com/1mbitshorde/InputSystem/tree/2.0.0/
+[1.8.3]: https://github.com/1mbitshorde/InputSystem/tree/1.8.3/
+[1.8.2]: https://github.com/1mbitshorde/InputSystem/tree/1.8.2/
+[1.8.1]: https://github.com/1mbitshorde/InputSystem/tree/1.8.1/
+[1.8.0]: https://github.com/1mbitshorde/InputSystem/tree/1.8.0/
+[1.7.0]: https://github.com/1mbitshorde/InputSystem/tree/1.7.0/
+[1.6.0]: https://github.com/1mbitshorde/InputSystem/tree/1.6.0/
+[1.5.0]: https://github.com/1mbitshorde/InputSystem/tree/1.5.0/
+[1.4.0]: https://github.com/1mbitshorde/InputSystem/tree/1.4.0/
+[1.3.0]: https://github.com/1mbitshorde/InputSystem/tree/1.3.0/
+[1.2.0]: https://github.com/1mbitshorde/InputSystem/tree/1.2.0/
+[1.1.0]: https://github.com/1mbitshorde/InputSystem/tree/1.1.0/
+[1.0.0]: https://github.com/1mbitshorde/InputSystem/tree/1.0.0/
+[1.0.0-preview.6]: https://github.com/1mbitshorde/InputSystem/tree/1.0.0-preview.6/
+[1.0.0-preview.5]: https://github.com/1mbitshorde/InputSystem/tree/1.0.0-preview.5/
+[1.0.0-preview.4]: https://github.com/1mbitshorde/InputSystem/tree/1.0.0-preview.4/
+[1.0.0-preview.3]: https://github.com/1mbitshorde/InputSystem/tree/1.0.0-preview.3/
+[1.0.0-preview.2]: https://github.com/1mbitshorde/InputSystem/tree/1.0.0-preview.2/
+[1.0.0-preview.1]: https://github.com/1mbitshorde/InputSystem/tree/1.0.0-preview.1/

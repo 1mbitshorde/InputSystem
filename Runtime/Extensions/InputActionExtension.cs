@@ -1,6 +1,6 @@
 using UnityEngine.InputSystem;
 
-namespace ActionCode.InputSystem
+namespace OneM.InputSystem
 {
     /// <summary>
     /// Extension class for <see cref="InputAction"/> and <see cref="InputActionMap"/>.

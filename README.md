@@ -2,8 +2,7 @@
 
 * This package is an extension for Unity new Input System.
 * Unity minimum version: **6000.3**
-* Current version: **1.8.3**
-* License: **MIT**
+* Current version: **2.0.0**
 
 ## Input Sprites Pack
 
@@ -202,7 +201,7 @@ You can use the InputActionPopup as follow:
 
 ```csharp
 using UnityEngine;
-using ActionCode.InputSystem;
+using OneM.InputSystem;
 using UnityEngine.InputSystem;
 
 public sealed class InputActionPopupTest : MonoBehaviour
@@ -230,19 +229,19 @@ On Editor, if the mouse is outside the GameView, the cursor will be set to visib
 
 ### Using the Package Registry Server
 
-Follow the instructions inside [here](https://cutt.ly/ukvj1c8) and the package **ActionCode-Input System** 
+Follow the instructions inside [here](https://cutt.ly/ukvj1c8) and the package **1M Bits Horde-Input System** 
 will be available for you to install using the **Package Manager** windows.
 
 ### Using the Git URL
 
 You will need a **Git client** installed on your computer with the Path variable already set. 
 
-- Use the **Package Manager** "Add package from git URL..." feature and paste this URL: `https://github.com/HyagoOliveira/InputSystem.git`
+- Use the **Package Manager** "Add package from git URL..." feature and paste this URL: `https://github.com/1mbitshorde/InputSystem.git`
 
 - You can also manually modify you `Packages/manifest.json` file and add this line inside `dependencies` attribute: 
 
 ```json
-"com.actioncode.input-system":"https://github.com/HyagoOliveira/InputSystem.git"
+"com.1mbitshorde.input-system":"https://github.com/1mbitshorde/InputSystem.git"
 ```
 
 ---

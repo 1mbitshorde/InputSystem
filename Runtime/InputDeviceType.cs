@@ -1,4 +1,4 @@
-namespace ActionCode.InputSystem
+namespace OneM.InputSystem
 {
     /// <summary>
     /// Types for inputs devices.

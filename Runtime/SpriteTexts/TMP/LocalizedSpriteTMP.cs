@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Localization.Components;
 
-namespace ActionCode.InputSystem
+namespace OneM.InputSystem
 {
     /// <summary>
     /// Updates the local <see cref="SpriteTMP"/> component using 
