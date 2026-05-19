@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- DeviceInputChangedListener component
+
 ## [2.0.0] - 2026-03-20
 ### Changed
 - Move package into 1M Bits Horde
