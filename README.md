@@ -2,7 +2,6 @@
 
 * This package is an extension for Unity new Input System.
 * Unity minimum version: **6000.3**
-* Current version: **2.0.0**
 
 ## Input Sprites Pack
 

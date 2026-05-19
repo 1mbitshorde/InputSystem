@@ -1,7 +1,7 @@
 {
   "name": "com.1mbitshorde.input-system",
   "displayName": "1M Bits Horde-Input System",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "unity": "6000.3",
   "description": "This package is an extension for th new Unity Input System.",
   "keywords": [
@@ -10,10 +10,10 @@
   ],
   "category": "Input",
   "dependencies": {
-    "com.unity.inputsystem": "1.18.0",
+    "com.unity.inputsystem": "1.19.0",
     "com.unity.textmeshpro": "1.0.0",
     "com.1mbitshorde.awaitable-system": "2.0.1",
-    "com.1mbitshorde.serialized-dictionary": "2.0.0"
+    "com.1mbitshorde.serialized-dictionary": "2.1.0"
   },
   "license": "MIT",
   "homepage": "https://github.com/1mbitshorde/InputSystem#readme",

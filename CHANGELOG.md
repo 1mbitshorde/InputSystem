@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.1.0] - 2026-05-19
 ### Added
 - Action Events into ActionSpriteTag
 - DeviceInputChangedListener component
@@ -152,7 +153,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - README
 - Initial commit
 
-[Unreleased]: https://github.com/1mbitshorde/InputSystem/compare/2.0.0
+[Unreleased]: https://github.com/1mbitshorde/InputSystem/compare/2.1.0
+[2.1.0]: https://github.com/1mbitshorde/InputSystem/tree/2.1.0/
 [2.0.0]: https://github.com/1mbitshorde/InputSystem/tree/2.0.0/
 [1.8.3]: https://github.com/1mbitshorde/InputSystem/tree/1.8.3/
 [1.8.2]: https://github.com/1mbitshorde/InputSystem/tree/1.8.2/
