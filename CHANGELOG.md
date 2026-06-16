@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- ActionPerformedListener.OnActionStarted and OnActionCanceled events
+
 ## [2.1.0] - 2026-05-19
 ### Added
 - Action Events into ActionSpriteTag

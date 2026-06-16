@@ -19,8 +19,12 @@ namespace OneM.InputSystem
         [SerializeField] private InputActionPopup actionPopup = new(nameof(inputAsset));
 
         [Space]
+        [Tooltip("Event fired when the serialized action is started.")]
+        public UnityEvent OnActionStarted;
         [Tooltip("Event fired when the serialized action is performed.")]
         public UnityEvent OnActionPerformed;
+        [Tooltip("Event fired when the serialized action is canceled.")]
+        public UnityEvent OnActionCanceled;
 
         private InputAction action;
 
@@ -29,16 +33,24 @@ namespace OneM.InputSystem
         private void OnEnable()
         {
             WaitAndEnableAction();
+
+            action.started += HandleActionStarted;
+            action.canceled += HandleActionCanceled;
             action.performed += HandleActionPerformed;
         }
 
         private void OnDisable()
         {
+            action.started -= HandleActionStarted;
+            action.canceled -= HandleActionCanceled;
             action.performed -= HandleActionPerformed;
+
             DisableAction();
         }
 
+        private void HandleActionStarted(InputAction.CallbackContext _) => OnActionStarted?.Invoke();
         private void HandleActionPerformed(InputAction.CallbackContext _) => OnActionPerformed?.Invoke();
+        private void HandleActionCanceled(InputAction.CallbackContext _) => OnActionCanceled?.Invoke();
         private void FindAction() => action = inputAsset.FindAction(actionPopup.GetPath(), throwIfNotFound: true);
 
         private void WaitAndEnableAction()
