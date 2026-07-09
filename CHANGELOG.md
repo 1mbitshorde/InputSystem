@@ -5,6 +5,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## [2.4.0] - 2026-07-09
 ### Added
 - RumbleManager class
 - RumbleData struct
@@ -164,7 +165,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - README
 - Initial commit
 
-[Unreleased]: https://github.com/1mbitshorde/InputSystem/compare/2.3.0
+[Unreleased]: https://github.com/1mbitshorde/InputSystem/compare/2.4.0
+[2.4.0]: https://github.com/1mbitshorde/InputSystem/tree/2.4.0/
 [2.3.0]: https://github.com/1mbitshorde/InputSystem/tree/2.3.0/
 [2.2.0]: https://github.com/1mbitshorde/InputSystem/tree/2.2.0/
 [2.1.0]: https://github.com/1mbitshorde/InputSystem/tree/2.1.0/

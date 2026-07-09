@@ -1,7 +1,7 @@
 {
   "name": "com.1mbitshorde.input-system",
   "displayName": "1M Bits Horde-Input System",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "unity": "6000.3",
   "description": "This package is an extension for th new Unity Input System.",
   "keywords": [
