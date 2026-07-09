@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 ### Added
+- RumbleManager class
 - RumbleData struct
 
 ## [2.3.0] - 2026-06-27
