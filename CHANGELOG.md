@@ -5,6 +5,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## [2.4.1] - 2026-07-10
 ### Fixed
 - Only apply rumble effect when using a Gamepad
 - Cancel previous rumble effect before start a new one
@@ -169,7 +170,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - README
 - Initial commit
 
-[Unreleased]: https://github.com/1mbitshorde/InputSystem/compare/2.4.0
+[Unreleased]: https://github.com/1mbitshorde/InputSystem/compare/2.4.1
+[2.4.1]: https://github.com/1mbitshorde/InputSystem/tree/2.4.1/
 [2.4.0]: https://github.com/1mbitshorde/InputSystem/tree/2.4.0/
 [2.3.0]: https://github.com/1mbitshorde/InputSystem/tree/2.3.0/
 [2.2.0]: https://github.com/1mbitshorde/InputSystem/tree/2.2.0/
