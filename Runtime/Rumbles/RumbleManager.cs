@@ -1,4 +1,5 @@
 using OneM.AwaitableSystem;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -13,6 +14,8 @@ namespace OneM.InputSystem
         /// Whether rumble effects enabled.
         /// </summary>
         public static bool IsEnabled { get; set; } = true;
+
+        private static CancellationTokenSource cancelationSource;
 
         /// <summary>
         /// Checks if rumble effects are disabled.
@@ -38,14 +41,27 @@ namespace OneM.InputSystem
             var gamepad = Gamepad.current;
             if (gamepad == null) return;
 
+            StopRumble();
             gamepad.SetMotorSpeeds(data.lowFrequency, data.highFrequency);
-            await AwaitableUtility.WaitForSecondsRealtimeAsync(data.duration);
-            gamepad?.SetMotorSpeeds(0f, 0f); // Gamepad can be disconnected
+
+            cancelationSource = new CancellationTokenSource();
+            var token = cancelationSource.Token;
+            await AwaitableUtility.WaitForSecondsRealtimeAsync(data.duration, token);
+
+            if (!token.IsCancellationRequested) StopRumble();
         }
 
         /// <summary>
         /// Stops the any rumble effect.
         /// </summary>
-        public static void StopRumble() => Gamepad.current?.SetMotorSpeeds(0f, 0f);
+        public static void StopRumble()
+        {
+            cancelationSource?.Cancel();
+            cancelationSource?.Dispose();
+            cancelationSource = null;
+
+            // Gamepad can be disconnected
+            Gamepad.current?.SetMotorSpeeds(0f, 0f);
+        }
     }
 }
