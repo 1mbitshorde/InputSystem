@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 ### Fixed
+- Only apply rumble effect when using a Gamepad
 - Cancel previous rumble effect before start a new one
 
 ## [2.4.0] - 2026-07-09

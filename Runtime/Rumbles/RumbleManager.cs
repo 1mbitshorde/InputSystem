@@ -36,7 +36,7 @@ namespace OneM.InputSystem
         /// <returns>An Awaitable task that completes when the rumble finishes.</returns>
         public static async Awaitable StartRumbleAsync(RumbleData data)
         {
-            if (IsDisabled()) return;
+            if (IsDisabled() || InputSystem.IsUsingKeyboardOrMouse()) return;
 
             var gamepad = Gamepad.current;
             if (gamepad == null) return;
