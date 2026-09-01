@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.LowLevel;
 
@@ -43,8 +44,26 @@ namespace OneM.InputSystem
 
         private static event Action<InputDeviceType> InternalOnDeviceInputChanged;
 
+        public static bool IsMouseInsideGameView() => Mouse.current?.IsInsideGameView() == true;
         public static bool IsUsingKeyboardOrMouse() => LastDeviceType == InputDeviceType.KeyboardAndMouse;
+        public static bool IsUsingKeyboardOrMouseInsideGameView() => IsUsingKeyboardOrMouse() && IsMouseInsideGameView();
         public static bool IsUsingAnyGamepad() => !IsUsingKeyboardOrMouse() && LastDeviceType != InputDeviceType.NotFound;
+
+        public static bool TryGetMouseScrollValue(out Vector2 value)
+        {
+            value = GetMouseScrollValue();
+            return IsUsingKeyboardOrMouse();
+        }
+
+        public static bool TryGetGamepadRightStickValue(out Vector2 value)
+        {
+            value = GetGamepadRightStickValue();
+            return IsUsingAnyGamepad();
+        }
+
+        public static Vector2 GetMouseScrollValue() => Mouse.current?.scroll.ReadValue() ?? Vector2.zero;
+        public static Vector2 GetGamepadLeftStickValue() => Gamepad.current?.leftStick.ReadValue() ?? Vector2.zero;
+        public static Vector2 GetGamepadRightStickValue() => Gamepad.current?.rightStick.ReadValue() ?? Vector2.zero;
 
         private static bool HasNoBinders() => InternalOnDeviceInputChanged == null;
         private static void BindIntoInputOnEvent() => UnityEngine.InputSystem.InputSystem.onEvent += HandleInputEvent;
